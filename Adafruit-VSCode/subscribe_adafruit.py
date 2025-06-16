@@ -1,4 +1,5 @@
 import paho.mqtt.client as mqtt
+import json
 from Adafruit_IO import Client
 
 # Adafruit IO settings
@@ -8,7 +9,7 @@ feed_name = 'led'  # Replace with your feed name
 
 # MQTT Broker settings
 mqtt_broker = 'broker.mqtt.cool'  # Replace with your MQTT broker address
-mqtt_topic = 'wokwi-raspberry_mqtt_light_status'
+mqtt_topic = 'Wokwi-MicropythonW_light-status'
 mqtt_port = 1883  # Default MQTT port
 
 # Create an instance of the Adafruit_IO Client
