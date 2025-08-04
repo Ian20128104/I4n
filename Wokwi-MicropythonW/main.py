@@ -8,8 +8,10 @@ from umqtt import MQTTClient
 
 # MQTT Server Parameters
 MQTT_CLIENT_ID = "micropython-mqtt-test"
-MQTT_BROKER    = "broker.mqtt.cool"
-MQTT_TOPIC     = "Wokwi-MicropythonW_light-status"
+MQTT_BROKER    = "broker.mqtt.cool" # BROKER SETTING
+MQTT_USER      = ""
+MQTT_PASSWORD  = ""
+MQTT_TOPIC     = "Wokwi-MicropythonW_light-status" # TOPIC TO SUBSCRIBE TO
 Button_Pressed = 0
 
 # Connect to Wi-Fi
